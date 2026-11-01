@@ -1,11 +1,20 @@
 # 3D 枪战射击 - 联机版
 
+纯前端网页 3D 射击游戏,联机通过 MQTT 中转,无需自建后端。
+
 ## 启动方法
 
+默认端口统一为 **8791**。
+
+- macOS:双击 `Start-Game.command`
+- Windows:双击 `Start-Game.bat`(需已安装 Python 3)
+- 手动启动(任意系统):
+
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 8791
 ```
-然后浏览器访问 http://localhost:8000
+
+然后浏览器访问 http://localhost:8791/index.html
 
 ## 联机对战（两个浏览器窗口测试）
 
@@ -80,12 +89,26 @@ python3 -m http.server 8000
 2. **C 键在 Mac 上可能误触 E（探头）**，用 Z 键代替蹲伏
 3. 网页预览使用软件渲染时可能较慢，不代表手机或电脑实机帧率
 
+## 安全提示
+
+- 联机使用 MQTT 中转服务，房间码和消息可能被同一服务上的其他人订阅到，请勿在聊天或昵称中填写真实隐私信息。
+- 玩家名字、密码、键位和成长记录仅保存在浏览器本地存储，清除浏览器数据会丢失。请不要复用重要账号的密码。
+
 ## 文件结构
 
-- `index.html` - 主页面（含联机 UI）
-- `assets/main-DpuvYSm-.js` - 游戏主逻辑
-- `assets/models/akm.glb` - AKM 模型
-- `assets/models/knife.glb` - 蝴蝶刀（闭）
-- `assets/models/knife_open.glb` - 蝴蝶刀（开）
-- `assets/lib/mqtt.min.js` - MQTT 库
+- `index.html` - 主页面（含联机 UI、登录、好友与聊天面板）
+- `Start-Game.command` - macOS 一键启动脚本（端口 8791）
+- `Start-Game.bat` - Windows 一键启动脚本（端口 8791）
+- `.gitignore` - 忽略系统临时文件
+- `assets/main-DpuvYSm-.js` - 游戏主逻辑（构建产物）
+- `assets/index-ObUDKLBk.js` - 入口/辅助脚本（构建产物）
+- `assets/vehicle-war.js` - 载具大战模式逻辑
+- `assets/battlefield-expansion.js` - 战场扩展逻辑
+- `assets/config/` - 玩家配置（`player.json`）与队伍皮肤（`team_skins.json`）
+- `assets/models/` - 3D 模型（AKM、蝴蝶刀等）
+- `assets/textures/` - 贴图
+- `assets/sounds/` - 音效
 - `assets/anims/knife/Butterfly_*.json` - 蝴蝶刀动画
+- `assets/lib/mqtt.min.js` - MQTT 库
+
+> 说明：`main-*.js` 为打包后的文件，如有源码与构建配置，建议一并提交到仓库。
