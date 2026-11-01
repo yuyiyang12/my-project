@@ -1,0 +1,194 @@
+{
+  "arms": {
+    "file": "models/arms.glb",
+    "nodes": 56,
+    "meshes": 1,
+    "skins": 1,
+    "mats": 3,
+    "kb": 417
+  },
+  "pistol": {
+    "file": "models/pistol.glb",
+    "nodes": 5,
+    "meshes": 4,
+    "skins": 0,
+    "mats": 1,
+    "kb": 446
+  },
+  "rifle": {
+    "file": "models/rifle.glb",
+    "nodes": 2,
+    "meshes": 2,
+    "skins": 0,
+    "mats": 1,
+    "kb": 406
+  },
+  "shotgun": {
+    "file": "models/shotgun.glb",
+    "nodes": 3,
+    "meshes": 2,
+    "skins": 0,
+    "mats": 1,
+    "kb": 206
+  },
+  "sniper": {
+    "file": "models/sniper.glb",
+    "nodes": 8,
+    "meshes": 7,
+    "skins": 0,
+    "mats": 7,
+    "kb": 458
+  },
+  "knife": {
+    "file": "models/knife.glb",
+    "nodes": 5,
+    "meshes": 4,
+    "skins": 0,
+    "mats": 4,
+    "kb": 1322
+  },
+  "grenade": {
+    "file": "models/grenade.glb",
+    "nodes": 2,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 770
+  },
+  "launcher": {
+    "file": "models/launcher.glb",
+    "nodes": 9,
+    "meshes": 1,
+    "skins": 1,
+    "mats": 1,
+    "kb": 510
+  },
+  "molotov": {
+    "file": "models/molotov.glb",
+    "nodes": 2,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 105
+  },
+  "soldier": {
+    "file": "models/soldier.glb",
+    "nodes": 65,
+    "meshes": 2,
+    "skins": 1,
+    "mats": 3,
+    "kb": 794
+  },
+  "ammo": {
+    "file": "models/ammo.glb",
+    "nodes": 2,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 30
+  },
+  "health": {
+    "file": "models/health.glb",
+    "nodes": 3,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 4
+  },
+  "platform": {
+    "file": "models/platform.glb",
+    "nodes": 3,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 3
+  },
+  "shell": {
+    "file": "models/shell.glb",
+    "nodes": 2,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 7
+  },
+  "rocket": {
+    "file": "models/rocket.glb",
+    "nodes": 2,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 10
+  },
+  "flag": {
+    "file": "models/flag.glb",
+    "nodes": 3,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 3,
+    "kb": 15
+  },
+  "akm": {
+    "file": "models/akm.glb",
+    "nodes": 7,
+    "meshes": 7,
+    "skins": 0,
+    "mats": 7,
+    "kb": 205
+  },
+  "tank_new": {
+    "file": "models/tank_new.glb",
+    "nodes": 1,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 3700
+  },
+  "ifv2": {
+    "file": "models/ifv2.glb",
+    "nodes": 1,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 3600
+  },
+  "f35": {
+    "file": "models/f35.glb",
+    "nodes": 1,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 3230
+  },
+  "m4a1": {
+    "file": "models/m4a1.glb",
+    "nodes": 1,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 2070
+  },
+  "vector": {
+    "file": "models/vector.glb",
+    "nodes": 1,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 2020
+  },
+  "m14": {
+    "file": "models/m14.glb",
+    "nodes": 1,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 2110
+  },
+  "m700": {
+    "file": "models/m700.glb",
+    "nodes": 1,
+    "meshes": 1,
+    "skins": 0,
+    "mats": 1,
+    "kb": 2130
+  }
+}
